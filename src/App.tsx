@@ -1,9 +1,13 @@
 import React from 'react'
+import './App.css'
 import Home from './paginas/home/Home'
 
-const App = () => {
+function App() {
   return (
-    <Home/>
+    <>
+      <Home titulo="home" texto="um texto aleatorio" cor="purple"/>
+    </>
+    
   )
 }
 
