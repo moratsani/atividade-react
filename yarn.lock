@@ -1131,10 +1131,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-plugin-react-hooks@^4.6.2:
-  version "4.6.2"
-  resolved "https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.2.tgz"
-  integrity sha512-QzliNJq4GinDBcD8gPB5v0wh6g8q3SUi6EFF0x8N/BL9PoVs0atuGc47ozMRyOWAKdwaZ5OnbOEa3WR+dSGKuQ==
+eslint-plugin-react-hooks@^5.1.0-rc-df5f2736-20240712:
+  version "5.1.0-rc-df5f2736-20240712"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-5.1.0-rc-df5f2736-20240712.tgz#0e9f2bb5d1dc52b268c467a00b88e19f90545f39"
+  integrity sha512-7rU6g+0yCvGAoJ3iIpK89XRir4FokHYJ8mUnOMuEt04UdTONOFVoMeXDC6Vjy6TnS3BMxMwOUDeDooEhK2ud1A==
 
 eslint-plugin-react-refresh@^0.4.7:
   version "0.4.7"
