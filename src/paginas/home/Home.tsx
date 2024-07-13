@@ -1,12 +1,34 @@
 import React from 'react';
+import homeLogo from '../../assets/casa.png'
 import './Home.css';
+import ListaPostagens from '../../components/postagens/listaPostagens/ListaPostagens';
+import ModalPostagem from '../../components/postagens/modalPostagem/ModalPostagem';
 
-const Home = () => {
-    return(
+
+
+function Home() {
+    return (
         <>
-            <h1 className="titulo">Home</h1>
-            <img src="https://img.freepik.com/vetores-gratis/ilustracao-do-conceito-de-conta_114360-399.jpg?t=st=1718983327~exp=1718986927~hmac=f6fd9a3a54448f3581810b6641cf3493f325320ea6f076b35db284a63f845610&w=740" alt="Imagem Tela Inicial" className="img" />
-        </>
+        <div className="bg-indigo-900 flex justify-center">
+          <div className='container grid grid-cols-2 text-white'>
+            <div className="flex flex-col gap-4 items-center justify-center py-4">
+              <h2 className='text-5xl font-bold'>Seja bem vinde!</h2>
+              <p className='text-xl'>Expresse aqui seus pensamentos e opniões</p>
+  
+              <div className="flex justify-around gap-4">
+              <ModalPostagem />
+              <button className='rounded bg-white text-blue-800 py-2 px-4'>Ver postagens</button>
+            </div>
+            </div>
+  
+            <div className="flex justify-center ">
+              <img src={homeLogo} alt="" className='w-2/3' />
+      
+            </div>
+          </div>
+        </div>
+        <ListaPostagens />
+      </>
     );
 }
 
